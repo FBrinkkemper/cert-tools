@@ -18,7 +18,7 @@ from cert_schema import *
 OPEN_BADGES_V2_CONTEXT = OPEN_BADGES_V2_CANONICAL_CONTEXT
 BLOCKCERTS_V2_CONTEXT = BLOCKCERTS_V2_CANONICAL_CONTEXT
 
-
+""""comment commit"""" 
 def create_badge_section(config):
     cert_image_path = os.path.join(config.abs_data_dir, config.cert_image_file)
     issuer_image_path = os.path.join(config.abs_data_dir, config.issuer_logo_file)
