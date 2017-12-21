@@ -44,7 +44,6 @@ def create_badge_section(config):
 
     if config.issuer_signature_lines:
         signature_lines = []
-        signature_lines = []
         for signature_line in config.issuer_signature_lines:
             signature_image_path = os.path.join(config.abs_data_dir, signature_line['signature_image'])
             signature_lines.append(
